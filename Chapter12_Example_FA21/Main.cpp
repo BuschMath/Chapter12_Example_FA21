@@ -1,13 +1,16 @@
 #include <iostream>
-#include "table.h"
+#include "CollegeClass.h"
 
 using namespace std;
 
 int main()
 {
-	table t1;
+	CollegeClass Calculus;
 
-	cout << t1.GetHeight();
+	Calculus.SetName("Calculus");
+	Calculus.SetCourseCode("MAT-210");
+
+	Calculus.DisplayName();
 
 	return 0;
 }
